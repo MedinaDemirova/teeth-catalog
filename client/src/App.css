@@ -1,0 +1,81 @@
+
+*{
+  max-height:100vh ;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Bad Script', cursive;
+  font-size: 100%;
+  display: block;
+}
+
+.app{
+  max-height: fit-content;
+  
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  height: 10vh;
+  background-color: #d3155e;
+  color: palevioletred;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #f53ffc;
+  border-top: 2px solid #ff00ea;
+
+}
+
+.header-logo{
+  width: 6vw;
+  position: fixed;
+  top:1vh;
+  left: 1vh;
+}
+
+.navination-header{
+  display: flex;
+}
+
+.header-navigation-li {
+  list-style-type: none;
+  color:pink;
+  font-size: 1.8vw;
+  text-decoration: none;
+  margin: 1%;
+
+}
+
+.header-navigation-li:hover {
+  border-top: none;
+  border-bottom: 2px solid #ffa000;
+  font-weight: bold;
+}
+ 
+/* Main */
+.main{
+  background: linear-gradient(to top, #ee9ca7, #ffdde1);
+  position: fixed;
+  top:10vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+/* Footer */
+.footer{
+  position: fixed;
+  display: flex;  
+  bottom: 0;
+  justify-content: center;
+  height: auto;
+  background-size: cover;
+  box-shadow: inset 0px 0px 20px 5px  rgb(228, 9, 82);
+  opacity: 0.9;
+  padding: 10px;
+}
+
