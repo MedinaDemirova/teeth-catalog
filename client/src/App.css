@@ -14,6 +14,18 @@
   
 }
 
+p{
+  text-align: left;
+  overflow-wrap: break-word;
+  font-size: 130%;
+  padding: 2%;
+  width: 90%;
+}
+
+style{
+  display: none;
+}
+
 .header {
   width: 100vw;
   display: flex;
@@ -24,26 +36,31 @@
   top: 0;
   border-bottom: 2px solid #f53ffc;
   border-top: 2px solid #ff00ea;
-
 }
 
 .header-logo{
-  width: 6vw;
+  width: 10vw;
   position: fixed;
   top:1vh;
   left: 1vh;
+  background: transparent;
 }
 
 .navination-header{
   display: flex;
+ position: relative;
+ right: 0%;
+ left:8%;
 }
 
 .header-navigation-li {
   list-style-type: none;
   color:pink;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   text-decoration: none;
   margin: 1%;
+  
+
 
 }
 
@@ -56,15 +73,33 @@
 /* Main */
 .main{
   background: linear-gradient(to top, #ee9ca7, #ffdde1);
+  width: 100vw;
   position: fixed;
   top:10vh;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
 
 
+.menu{
+  width: 10%;
+  height: 100%;
+  border-right: solid 2px pink;
+  position: fixed;
+  left: 0;
+  display: flex;
+  padding:2%;
+}
 
+.display{
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  left: 15%;
+  display: flex;
+  overflow-y: auto;
+}
 
 /* Footer */
 .footer{

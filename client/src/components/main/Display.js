@@ -1,7 +1,9 @@
+import Homepage from './Homepage'
+
 function Display (){
     return(
      <div className="display">
-     Display info
+    <Homepage />
      </div>
     )
 }
